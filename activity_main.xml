@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date: "
+        android:textSize="18sp"
+        android:paddingBottom="16dp" />
+
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name:"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter name"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/birthYearLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="birth year:"
+        android:textSize="16sp"
+        android:paddingTop="16dp" />
+
+    <EditText
+        android:id="@+id/birthYearEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter birth year:"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/showDetailsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="details"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+
+    <TextView
+        android:id="@+id/detailsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
